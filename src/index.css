@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=New+Amsterdam&family=Reddit+Mono:wght@200..900&display=swap');
+
+
+body {
+    font-family: 'New Amsterdam';
+  }
+
+
+  ::-webkit-scrollbar {
+    width: 10px; /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #FFFFFFFF; /* color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #64ffda; /* color of the thumb */
+    border: 1px solid #64ffda; /* border around the thumb */
+}
+
+html {
+    scroll-behavior: smooth;
+  }
